@@ -1,0 +1,144 @@
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.btn {
+    border-radius: 30px;
+    box-shadow: red;
+}
+
+.btn:hover {
+    background-color: #f8f9fa !important;
+    color: red;
+    border-color: red;
+}
+
+.shadow-sm:hover {
+    transform: scale(1.03) !important;
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+/*navbar hovers*/
+.nav-item:hover,
+.navbar-brand:hover,
+.nav-link:hover,
+.navbar-nav :hover {
+    color: red !important;
+}
+
+/*for explore button*/
+.brdr {
+    border-color: black;
+}
+
+.services {
+    width: 20%;
+    height: auto;
+}
+
+/*for three cards*/
+.collagex {
+    width: 100%;
+    margin: 0px !important;
+
+}
+
+.collagex:hover {
+    opacity: 0.4 !important;
+
+}
+
+
+
+/*for sliding text*/
+div.slide-left {
+    width: 100%;
+    overflow: hidden;
+}
+
+div.slide-left p {
+    animation: slide-left 2s;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+/*    -----    */
+
+
+/*  for top three cards*/
+.container {
+    position: relative;
+    width: 100%;
+    margin-right: 50PX !important;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin: 10px 10px 10px 10px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+/*for coloring the text in three top cards*/
+.text {
+    background-color: transparent;
+    color: red;
+    font-size: 1.5rem;
+
+}
+
+/*for border line in top three cards*/
+.abc {
+    border-left: 6px solid red;
+}
+
+
+/*#C0C0C0 #D3D3D3*/
+
+/*footer*/
+.logo {
+    width: 2.3rem;
+}
+
+.grad {
+    background-image: linear-gradient(white, #f8f9fa, #D3D3D3);
+    opacity: 1;
+}

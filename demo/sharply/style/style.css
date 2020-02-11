@@ -1,0 +1,10 @@
+.dn:hover {
+    background-color: mediumpurple !important;
+    border-color: mediumpurple !important;
+
+}
+
+.rm:hover {
+    background-color: transparent !important;
+    border-color: white !important;
+}

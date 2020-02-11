@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .btn-outline-success .border-white {
+            color: white !important;
+        }
+
+        .border-white:hover,
+        .btn-outline-success:hover {
+            background-color: limegreen !important;
+            color: white !important;
+
+        }
+
+        .nav-link:hover,
+        .navbar-brand:hover {
+            color: greenyellow !important;
+        }
+
+
+        .round {
+            border-radius: 30px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--  one main container fluid-->
+
+    <div class="container-fluid bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent mx-auto">
+            <a class="navbar-brand text-white ml-5" href="#"> &nbsp;&nbsp;&nbsp; Landing</a>
+            <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation border-white">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white mx-lg-2" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-lg-2" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-lg-2" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-lg-2" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-lg-2" href="#">FAQ</a>
+                    </li>
+
+
+                </ul>
+                <form class="form-inline my-2 mx-lg-4 ">
+
+                    <button class="btn btn-outline-success my-2 mx-sm-0 text-white border-white" type="submit">Get Started</button>
+
+                </form>
+            </div>
+        </nav>
+
+        <!--       12 grid system-->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-5 col-sm-6 col-lg-4">
+                    <div class="card  bg-transparent border-primary" style=" width:25rem; margin-top: 7rem;">
+                        <div class="card-body bg-transparent text-white">
+                            <h1>Fly makes you faster</h1>
+                            <p>New free template by<a href="#" style="color:deepskyblue;"> uicookies.com</a>.For more templates visit the <a href="#" style="color:deepskyblue;">site</a>.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                            <button class="bg-success border-success text-white btn btn-success round ">
+                                <p style="font-size:.9rem;" class="mb-0 mt-0 ml-4 mr-4">SEE PRICING</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--                sign up form-->
+                <div class="col-lg-8 col-md-7 col-sm-6 ">
+
+                    <div class="bg-white container shadow-lg rounded " style="width:17rem;">
+                        <div style="margin: 10px 10px 10px 10px">
+                            <h3 class="mb-3">
+                                <p style="margin-top: 7rem;padding-top:1rem ;">Sign Up for Free</p>
+                            </h3>
+
+                            <input type="text" class="form-control" placeholder="Full name" style="background-color: #eee;">
+                            <input type="text" class="form-control mt-3" id="email" placeholder="Email" style="background-color: #eee;">
+                            <input type="text" class="form-control mt-3" id="email" placeholder="Email" style="background-color: #eee;">
+
+                            <select name="Type" class="form-control mt-3" style="background-color: #eee;">
+                                <option value="Type">Type</option>
+                                <option value="18">18</option>
+                                <option value="17">17</option>
+                                <option value="16">16</option>
+                            </select>
+                            <button type="submit" class="btn btn-default bg-primary text-white form-control mt-3 mb-3 round">Submit</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer class="page-footer font-small bg-primary mt-4 pt-4">
+
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center mt-5 py-3">© 2020 Copyright:
+                <a href="#" class="text-white"> landing.com</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+
+
+
+</body></html>
